@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\bin\Debug\115-03-02.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\bin\Debug\115-03-02.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\bin\Debug\115-03-02.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\115-03-02.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\_115_03_02.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\_115_03_02.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\115-03-02.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\115-03-02.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\115-03-02.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\115-03-02.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-03-02\115-03-02\obj\Debug\115-03-02.exe.config

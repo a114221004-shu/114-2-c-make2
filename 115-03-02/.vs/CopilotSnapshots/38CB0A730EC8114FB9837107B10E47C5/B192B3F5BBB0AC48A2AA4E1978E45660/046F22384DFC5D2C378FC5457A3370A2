@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace _115_03_02
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        // 宣告arrPic變數為圖片控制項陣列，陣列元素arrPic[0]~arrPic[2]
+        PictureBox[] arrPic = new PictureBox[3];
+        // 宣告getPoint陣列用來存放亂數值，陣列元素getPoint[0]~getPoint[2]
+        int[] getPoint = new int[3];
+        int total = 0;        // total整數變數用來存放三個骰子的總點數
+
+        // Add Random instance and coin result storage
+        Random rnd = new Random();
+        int coin1 = 0;
+        int coin2 = 0;
+
+        //表單載入時執行
+
+
+        private void pic1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void form1_Load(object sender, EventArgs e)
+        {
+            TmrGo.Interval = 50;  // 每0.05秒執行TmrGo_Tick事件處理函式一次
+            arrPic[0] = Pic1;      // 控制項陣列的第一個元素即為Pic1圖片控制項
+            arrPic[1] = Pic2;
+            arrPic[2] = Pic3;
+
+        }
+
+        private void BtnStart_Click(object sender, EventArgs e)
+        {
+            TmrGo.Enabled = true;
+        }
+
+        private void TmrGo_Tick(object sender, EventArgs e)
+        {
+            total = 0;
+            // Use shared Random instance to generate values
+            for (int i = 0; i < arrPic.Length; i++)   // 控制產生亂數的次數
+            {
+                getPoint[i] = rnd.Next(0, 6);  // 產生0~5 間之亂數
+                total += getPoint[i] + 1;      // 產生的點數累加到total變數
+                // 將指定圖檔置入控制項陣列在表單對應的圖片控制項      
+                arrPic[i].Image = ImgDice.Images[getPoint[i]];
+            }
+
+            // Animate two coins (0 = Heads, 1 = Tails)
+            coin1 = rnd.Next(0, 2);
+            coin2 = rnd.Next(0, 2);
+            pictureBox1.Image = imgCoin.Images[coin1];
+            pictureBox2.Image = imgCoin.Images[coin2];
+        }
+
+        private void BtnStop_Click(object sender, EventArgs e)
+        {
+            TmrGo.Enabled = false;
+            // If both coins show the same face (both heads or both tails), show total; otherwise ask to try again
+            if (coin1 == coin2)
+            {
+                LblMsg.Text = $"共得到 {total} 點 !!";
+            }
+            else
+            {
+                LblMsg.Text = "再來一次";
+            }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
