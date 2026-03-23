@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\bin\Debug\p8-34.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\bin\Debug\p8-34.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\bin\Debug\p8-34.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8-34.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8_34.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8_34.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8-34.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8-34.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8-34.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8-34.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-34\p8-34\obj\Debug\p8-34.exe.config

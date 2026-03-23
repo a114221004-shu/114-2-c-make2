@@ -1,0 +1,10 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\bin\Debug\p8-33.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\bin\Debug\p8-33.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\bin\Debug\p8-33.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8-33.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8_33.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8_33.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8-33.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8-33.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8-33.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\p8-33\p8-33\obj\Debug\p8-33.pdb

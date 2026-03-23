@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\bin\Debug\Share_events.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\bin\Debug\Share_events.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\bin\Debug\Share_events.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-0323\Share_events\Share_events\obj\Debug\Share_events.exe.config
