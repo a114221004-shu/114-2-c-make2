@@ -211,7 +211,7 @@
             // BntAC
             // 
             this.BntAC.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.BntAC.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntAC.Font = new System.Drawing.Font("新細明體", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.BntAC.Location = new System.Drawing.Point(686, 136);
             this.BntAC.Name = "BntAC";
             this.BntAC.Size = new System.Drawing.Size(50, 50);
