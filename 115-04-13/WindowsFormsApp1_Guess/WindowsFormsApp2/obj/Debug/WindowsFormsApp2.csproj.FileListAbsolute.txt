@@ -9,3 +9,14 @@ C:\Users\m303\Desktop\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsForm
 C:\Users\m303\Desktop\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\m303\Desktop\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\m303\Desktop\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe.config
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe.config
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\115-04-13\WindowsFormsApp1_Guess\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

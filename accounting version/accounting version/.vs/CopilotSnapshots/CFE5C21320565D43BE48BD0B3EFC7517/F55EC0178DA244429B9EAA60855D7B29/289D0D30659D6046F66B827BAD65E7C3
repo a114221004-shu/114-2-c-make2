@@ -1,0 +1,393 @@
+﻿namespace accounting_version
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.Bnt2 = new System.Windows.Forms.Button();
+            this.Bnt3 = new System.Windows.Forms.Button();
+            this.Bnt1 = new System.Windows.Forms.Button();
+            this.Bnt6 = new System.Windows.Forms.Button();
+            this.Bnt5 = new System.Windows.Forms.Button();
+            this.Bnt7 = new System.Windows.Forms.Button();
+            this.Bnt9 = new System.Windows.Forms.Button();
+            this.Bnt8 = new System.Windows.Forms.Button();
+            this.Bnt4 = new System.Windows.Forms.Button();
+            this.Bnt0 = new System.Windows.Forms.Button();
+            this.BntPoint = new System.Windows.Forms.Button();
+            this.BntBack = new System.Windows.Forms.Button();
+            this.Bnt00 = new System.Windows.Forms.Button();
+            this.BntAC = new System.Windows.Forms.Button();
+            this.BntOK = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.BntExit = new System.Windows.Forms.Button();
+            this.BntClear = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TxtItem = new System.Windows.Forms.TextBox();
+            this.LblTotal = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // Bnt2
+            // 
+            this.Bnt2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt2.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt2.Location = new System.Drawing.Point(574, 136);
+            this.Bnt2.Name = "Bnt2";
+            this.Bnt2.Size = new System.Drawing.Size(50, 50);
+            this.Bnt2.TabIndex = 0;
+            this.Bnt2.Text = "2";
+            this.Bnt2.UseVisualStyleBackColor = false;
+            this.Bnt2.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt3
+            // 
+            this.Bnt3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt3.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt3.Location = new System.Drawing.Point(630, 136);
+            this.Bnt3.Name = "Bnt3";
+            this.Bnt3.Size = new System.Drawing.Size(50, 50);
+            this.Bnt3.TabIndex = 1;
+            this.Bnt3.Text = "3";
+            this.Bnt3.UseVisualStyleBackColor = false;
+            this.Bnt3.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt1
+            // 
+            this.Bnt1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt1.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt1.Location = new System.Drawing.Point(518, 136);
+            this.Bnt1.Name = "Bnt1";
+            this.Bnt1.Size = new System.Drawing.Size(50, 50);
+            this.Bnt1.TabIndex = 2;
+            this.Bnt1.Text = "1";
+            this.Bnt1.UseVisualStyleBackColor = false;
+            this.Bnt1.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt6
+            // 
+            this.Bnt6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt6.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt6.Location = new System.Drawing.Point(630, 192);
+            this.Bnt6.Name = "Bnt6";
+            this.Bnt6.Size = new System.Drawing.Size(50, 50);
+            this.Bnt6.TabIndex = 3;
+            this.Bnt6.Text = "6";
+            this.Bnt6.UseVisualStyleBackColor = false;
+            this.Bnt6.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt5
+            // 
+            this.Bnt5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt5.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt5.Location = new System.Drawing.Point(574, 192);
+            this.Bnt5.Name = "Bnt5";
+            this.Bnt5.Size = new System.Drawing.Size(50, 50);
+            this.Bnt5.TabIndex = 4;
+            this.Bnt5.Text = "5";
+            this.Bnt5.UseVisualStyleBackColor = false;
+            this.Bnt5.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt7
+            // 
+            this.Bnt7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt7.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt7.Location = new System.Drawing.Point(518, 248);
+            this.Bnt7.Name = "Bnt7";
+            this.Bnt7.Size = new System.Drawing.Size(50, 50);
+            this.Bnt7.TabIndex = 9;
+            this.Bnt7.Text = "7";
+            this.Bnt7.UseVisualStyleBackColor = false;
+            this.Bnt7.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt9
+            // 
+            this.Bnt9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt9.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt9.Location = new System.Drawing.Point(630, 248);
+            this.Bnt9.Name = "Bnt9";
+            this.Bnt9.Size = new System.Drawing.Size(50, 50);
+            this.Bnt9.TabIndex = 7;
+            this.Bnt9.Text = "9";
+            this.Bnt9.UseVisualStyleBackColor = false;
+            this.Bnt9.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt8
+            // 
+            this.Bnt8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt8.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt8.Location = new System.Drawing.Point(574, 248);
+            this.Bnt8.Name = "Bnt8";
+            this.Bnt8.Size = new System.Drawing.Size(50, 50);
+            this.Bnt8.TabIndex = 6;
+            this.Bnt8.Text = "8";
+            this.Bnt8.UseVisualStyleBackColor = false;
+            this.Bnt8.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt4
+            // 
+            this.Bnt4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt4.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt4.Location = new System.Drawing.Point(518, 192);
+            this.Bnt4.Name = "Bnt4";
+            this.Bnt4.Size = new System.Drawing.Size(50, 50);
+            this.Bnt4.TabIndex = 5;
+            this.Bnt4.Text = "4";
+            this.Bnt4.UseVisualStyleBackColor = false;
+            this.Bnt4.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt0
+            // 
+            this.Bnt0.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt0.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt0.Location = new System.Drawing.Point(574, 304);
+            this.Bnt0.Name = "Bnt0";
+            this.Bnt0.Size = new System.Drawing.Size(50, 50);
+            this.Bnt0.TabIndex = 12;
+            this.Bnt0.Text = "0";
+            this.Bnt0.UseVisualStyleBackColor = false;
+            this.Bnt0.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // BntPoint
+            // 
+            this.BntPoint.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BntPoint.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntPoint.Location = new System.Drawing.Point(630, 304);
+            this.BntPoint.Name = "BntPoint";
+            this.BntPoint.Size = new System.Drawing.Size(50, 50);
+            this.BntPoint.TabIndex = 11;
+            this.BntPoint.Text = ".";
+            this.BntPoint.UseVisualStyleBackColor = false;
+            this.BntPoint.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // BntBack
+            // 
+            this.BntBack.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BntBack.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntBack.Location = new System.Drawing.Point(686, 192);
+            this.BntBack.Name = "BntBack";
+            this.BntBack.Size = new System.Drawing.Size(50, 50);
+            this.BntBack.TabIndex = 10;
+            this.BntBack.Text = "⬅";
+            this.BntBack.UseVisualStyleBackColor = false;
+            this.BntBack.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // Bnt00
+            // 
+            this.Bnt00.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Bnt00.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Bnt00.Location = new System.Drawing.Point(518, 304);
+            this.Bnt00.Name = "Bnt00";
+            this.Bnt00.Size = new System.Drawing.Size(50, 50);
+            this.Bnt00.TabIndex = 13;
+            this.Bnt00.Text = "00";
+            this.Bnt00.UseVisualStyleBackColor = false;
+            this.Bnt00.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // BntAC
+            // 
+            this.BntAC.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BntAC.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntAC.Location = new System.Drawing.Point(686, 136);
+            this.BntAC.Name = "BntAC";
+            this.BntAC.Size = new System.Drawing.Size(50, 50);
+            this.BntAC.TabIndex = 14;
+            this.BntAC.Text = "AC";
+            this.BntAC.UseVisualStyleBackColor = false;
+            this.BntAC.Click += new System.EventHandler(this.NumericButton_Click);
+            // 
+            // BntOK
+            // 
+            this.BntOK.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BntOK.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntOK.Location = new System.Drawing.Point(686, 248);
+            this.BntOK.Name = "BntOK";
+            this.BntOK.Size = new System.Drawing.Size(50, 106);
+            this.BntOK.TabIndex = 15;
+            this.BntOK.Text = "Ok";
+            this.BntOK.UseVisualStyleBackColor = false;
+            this.BntOK.Click += new System.EventHandler(this.BtnOk_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 23;
+            this.listBox1.Location = new System.Drawing.Point(12, 12);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(451, 349);
+            this.listBox1.TabIndex = 16;
+            // 
+            // BntExit
+            // 
+            this.BntExit.Font = new System.Drawing.Font("標楷體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntExit.Location = new System.Drawing.Point(617, 383);
+            this.BntExit.Name = "BntExit";
+            this.BntExit.Size = new System.Drawing.Size(146, 47);
+            this.BntExit.TabIndex = 17;
+            this.BntExit.Text = "離開";
+            this.BntExit.UseVisualStyleBackColor = true;
+            this.BntExit.Click += new System.EventHandler(this.BtnExit_Click);
+            // 
+            // BntClear
+            // 
+            this.BntClear.Font = new System.Drawing.Font("標楷體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.BntClear.Location = new System.Drawing.Point(490, 383);
+            this.BntClear.Name = "BntClear";
+            this.BntClear.Size = new System.Drawing.Size(121, 47);
+            this.BntClear.TabIndex = 18;
+            this.BntClear.Text = "清除";
+            this.BntClear.UseVisualStyleBackColor = true;
+            this.BntClear.Click += new System.EventHandler(this.BtnClear_Click);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(503, 77);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(248, 38);
+            this.label1.TabIndex = 19;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(499, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 65);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "項目：";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtItem
+            // 
+            this.TxtItem.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystemDirectories;
+            this.TxtItem.BackColor = System.Drawing.SystemColors.Window;
+            this.TxtItem.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.TxtItem.Location = new System.Drawing.Point(574, 25);
+            this.TxtItem.Name = "TxtItem";
+            this.TxtItem.Size = new System.Drawing.Size(177, 35);
+            this.TxtItem.TabIndex = 22;
+            // 
+            // LblTotal
+            // 
+            this.LblTotal.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.LblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LblTotal.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.LblTotal.Location = new System.Drawing.Point(12, 392);
+            this.LblTotal.Name = "LblTotal";
+            this.LblTotal.Size = new System.Drawing.Size(451, 38);
+            this.LblTotal.TabIndex = 23;
+            this.LblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // 
+            // Attach event handlers
+            // 
+            this.Bnt2.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt3.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt1.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt6.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt5.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt7.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt9.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt8.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt4.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt0.Click += new System.EventHandler(this.NumericButton_Click);
+            this.BntPoint.Click += new System.EventHandler(this.NumericButton_Click);
+            this.BntBack.Click += new System.EventHandler(this.NumericButton_Click);
+            this.Bnt00.Click += new System.EventHandler(this.NumericButton_Click);
+            this.BntAC.Click += new System.EventHandler(this.NumericButton_Click);
+
+            this.BntOK.Click += new System.EventHandler(this.BtnOk_Click);
+            this.BntClear.Click += new System.EventHandler(this.BtnClear_Click);
+            this.BntExit.Click += new System.EventHandler(this.BtnExit_Click);
+
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(775, 450);
+            this.Controls.Add(this.LblTotal);
+            this.Controls.Add(this.TxtItem);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BntClear);
+            this.Controls.Add(this.BntExit);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.BntOK);
+            this.Controls.Add(this.BntAC);
+            this.Controls.Add(this.Bnt00);
+            this.Controls.Add(this.Bnt0);
+            this.Controls.Add(this.BntPoint);
+            this.Controls.Add(this.BntBack);
+            this.Controls.Add(this.Bnt7);
+            this.Controls.Add(this.Bnt9);
+            this.Controls.Add(this.Bnt8);
+            this.Controls.Add(this.Bnt4);
+            this.Controls.Add(this.Bnt5);
+            this.Controls.Add(this.Bnt6);
+            this.Controls.Add(this.Bnt1);
+            this.Controls.Add(this.Bnt3);
+            this.Controls.Add(this.Bnt2);
+            this.Name = "Form1";
+            this.Text = "計算金額";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button Bnt2;
+        private System.Windows.Forms.Button Bnt3;
+        private System.Windows.Forms.Button Bnt1;
+        private System.Windows.Forms.Button Bnt6;
+        private System.Windows.Forms.Button Bnt5;
+        private System.Windows.Forms.Button Bnt7;
+        private System.Windows.Forms.Button Bnt9;
+        private System.Windows.Forms.Button Bnt8;
+        private System.Windows.Forms.Button Bnt4;
+        private System.Windows.Forms.Button Bnt0;
+        private System.Windows.Forms.Button BntPoint;
+        private System.Windows.Forms.Button BntBack;
+        private System.Windows.Forms.Button Bnt00;
+        private System.Windows.Forms.Button BntAC;
+        private System.Windows.Forms.Button BntOK;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button BntExit;
+        private System.Windows.Forms.Button BntClear;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TxtItem;
+        private System.Windows.Forms.Label LblTotal;
+    }
+}
+

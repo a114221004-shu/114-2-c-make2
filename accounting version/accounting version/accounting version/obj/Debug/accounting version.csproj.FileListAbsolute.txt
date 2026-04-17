@@ -1,0 +1,11 @@
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\bin\Debug\accounting version.exe.config
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\bin\Debug\accounting version.exe
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\bin\Debug\accounting version.pdb
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting version.csproj.AssemblyReference.cache
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting_version.Form1.resources
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting_version.Properties.Resources.resources
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting version.csproj.GenerateResource.cache
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting version.csproj.CoreCompileInputs.cache
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting version.exe
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting version.pdb
+C:\Users\Mia\OneDrive\桌面\114-2-c-make2\accounting version\accounting version\accounting version\obj\Debug\accounting version.exe.config
