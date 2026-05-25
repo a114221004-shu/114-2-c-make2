@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\bin\Debug\Inherits.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\bin\Debug\Inherits.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\bin\Debug\Inherits.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\Inherits\obj\Debug\Inherits.exe.config

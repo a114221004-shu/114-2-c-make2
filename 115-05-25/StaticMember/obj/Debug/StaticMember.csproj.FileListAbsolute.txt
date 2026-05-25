@@ -1,0 +1,10 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\bin\Debug\StaticMember.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\bin\Debug\StaticMember.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\bin\Debug\StaticMember.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\StaticMember\obj\Debug\StaticMember.pdb

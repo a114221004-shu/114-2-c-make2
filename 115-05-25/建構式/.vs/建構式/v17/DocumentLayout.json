@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB20049-DD5C-4DE3-AD91-299A4501C4E2}|\u5EFA\u69CB\u5F0F.csproj|c:\\users\\m303\\desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB20049-DD5C-4DE3-AD91-299A4501C4E2}|\u5EFA\u69CB\u5F0F.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB20049-DD5C-4DE3-AD91-299A4501C4E2}|\u5EFA\u69CB\u5F0F.csproj|c:\\users\\m303\\desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB20049-DD5C-4DE3-AD91-299A4501C4E2}|\u5EFA\u69CB\u5F0F.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB20049-DD5C-4DE3-AD91-299A4501C4E2}|\u5EFA\u69CB\u5F0F.csproj|c:\\users\\m303\\desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB20049-DD5C-4DE3-AD91-299A4501C4E2}|\u5EFA\u69CB\u5F0F.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T09:45:15.599Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T09:43:12.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114-2-c-make2\\115-05-25\\\u5EFA\u69CB\u5F0F\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T09:42:25.268Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\bin\Debug\建構式.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\bin\Debug\建構式.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\bin\Debug\建構式.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.Form1.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.exe
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.pdb
+C:\Users\m303\Desktop\114-2-c-make2\115-05-25\建構式\obj\Debug\建構式.exe.config
