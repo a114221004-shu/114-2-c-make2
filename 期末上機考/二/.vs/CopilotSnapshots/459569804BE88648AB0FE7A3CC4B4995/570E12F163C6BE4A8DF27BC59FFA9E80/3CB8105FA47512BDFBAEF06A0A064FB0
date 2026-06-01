@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 二
+{
+    internal class Professor
+    {
+        private string number;
+        private string name;
+        private decimal salary;
+
+        public Professor()
+        {
+        }
+
+        public Professor(string number, string name, decimal salary)
+        {
+            Number = number;
+            Name = name;
+            Salary = salary;
+        }
+
+        public string Number
+        {
+            get { return number; }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("Number cannot be empty.", nameof(Number));
+                number = value;
+            }
+        }
+
+        public string Name
+        {
+            get { return name; }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("Name cannot be empty.", nameof(Name));
+                name = value;
+            }
+        }
+
+        /// <summary>
+        /// Basic salary. Must be between 80,000 and 100,000.
+        /// </summary>
+        public decimal Salary
+        {
+            get { return salary; }
+            set
+            {
+                if (value < 80000m || value > 100000m)
+                    throw new ArgumentOutOfRangeException(nameof(Salary), "Salary must be between 80,000 and 100,000.");
+                salary = value;
+            }
+        }
+
+        /// <summary>
+        /// Calculate net salary after 6% tax deduction.
+        /// </summary>
+        /// <returns>Net salary (decimal)</returns>
+        public decimal CalculateNetSalary()
+        {
+            return Salary * 0.94m;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 二
+{
+    internal class Dept_Head
+    {
+        private decimal bonus;
+
+        public Dept_Head()
+        {
+        }
+
+        public Dept_Head(string number, string name, decimal salary, decimal bonus)
+            : base()
+        {
+            // use properties from Professor
+            // Since Dept_Head inherits Professor, set via properties
+            Number = number;
+            Name = name;
+            Salary = salary;
+            Bonus = bonus;
+        }
+
+        /// <summary>
+        /// Bonus for dept head. Range 20,000 ~ 50,000
+        /// </summary>
+        public decimal Bonus
+        {
+            get { return bonus; }
+            set
+            {
+                if (value < 20000m || value > 50000m)
+                    throw new ArgumentOutOfRangeException(nameof(Bonus), "Bonus must be between 20,000 and 50,000.");
+                bonus = value;
+            }
+        }
+
+        /// <summary>
+        /// Calculate total gross salary (basic + bonus)
+        /// </summary>
+        public decimal TotalGrossSalary()
+        {
+            return Salary + Bonus;
+        }
+
+        /// <summary>
+        /// Calculate net received salary after 6% tax on total gross (basic + bonus)
+        /// </summary>
+        public decimal CalculateNetTotalSalary()
+        {
+            return TotalGrossSalary() * 0.94m;
+        }
+    }
+}

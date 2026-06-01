@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace 二
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            InitializeRuntimeControls();
+        }
+
+        private TextBox txtNumber;
+        private TextBox txtName;
+        private TextBox txtSalary;
+        private TextBox txtBonus;
+        private Button btnCalcProfessor;
+        private Button btnCalcDeptHead;
+        private Label lblResult;
+
+        private void InitializeRuntimeControls()
+        {
+            // 編號
+            var lblNumber = new Label { Text = "教師編號：", Left = 10, Top = 10, Width = 80 };
+            txtNumber = new TextBox { Left = 100, Top = 8, Width = 150 };
+            // 姓名
+            var lblName = new Label { Text = "教師姓名：", Left = 10, Top = 40, Width = 80 };
+            txtName = new TextBox { Left = 100, Top = 38, Width = 150 };
+            // 基本薪資
+            var lblSalary = new Label { Text = "基本薪資：", Left = 10, Top = 70, Width = 80 };
+            txtSalary = new TextBox { Left = 100, Top = 68, Width = 150, Text = "80000" };
+            // 加給（系主任用）
+            var lblBonus = new Label { Text = "主任加給：", Left = 10, Top = 100, Width = 80 };
+            txtBonus = new TextBox { Left = 100, Top = 98, Width = 150, Text = "20000" };
+
+            // 按鈕：計算教師實領
+            btnCalcProfessor = new Button { Text = "計算教師實領", Left = 10, Top = 140, Width = 120 };
+            btnCalcProfessor.Click += BtnCalcProfessor_Click;
+            // 按鈕：計算系主任實領
+            btnCalcDeptHead = new Button { Text = "計算系主任實領", Left = 150, Top = 140, Width = 120 };
+            btnCalcDeptHead.Click += BtnCalcDeptHead_Click;
+
+            lblResult = new Label { Text = "結果：", Left = 10, Top = 180, Width = 400, Height = 60 }; 
+
+            Controls.Add(lblNumber);
+            Controls.Add(txtNumber);
+            Controls.Add(lblName);
+            Controls.Add(txtName);
+            Controls.Add(lblSalary);
+            Controls.Add(txtSalary);
+            Controls.Add(lblBonus);
+            Controls.Add(txtBonus);
+            Controls.Add(btnCalcProfessor);
+            Controls.Add(btnCalcDeptHead);
+            Controls.Add(lblResult);
+        }
+
+        private void BtnCalcProfessor_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var num = txtNumber.Text.Trim();
+                var name = txtName.Text.Trim();
+                if (!decimal.TryParse(txtSalary.Text.Trim(), out var sal))
+                {
+                    MessageBox.Show("請輸入有效的基本薪資（數字）。","輸入錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                var prof = new Professor(num, name, sal);
+                var net = prof.CalculateNetSalary();
+                lblResult.Text = $"結果：教師 {prof.Name}（{prof.Number}） 實領：{net:C0}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"發生錯誤：{ex.Message}", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnCalcDeptHead_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var num = txtNumber.Text.Trim();
+                var name = txtName.Text.Trim();
+                if (!decimal.TryParse(txtSalary.Text.Trim(), out var sal))
+                {
+                    MessageBox.Show("請輸入有效的基本薪資（數字）。","輸入錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (!decimal.TryParse(txtBonus.Text.Trim(), out var bonus))
+                {
+                    MessageBox.Show("請輸入有效的加給（數字）。","輸入錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                var head = new Dept_Head(num, name, sal, bonus);
+                var netTotal = head.CalculateNetTotalSalary();
+                lblResult.Text = $"結果：系主任 {head.Name}（{head.Number}） 實領：{netTotal:C0}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"發生錯誤：{ex.Message}", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
+}

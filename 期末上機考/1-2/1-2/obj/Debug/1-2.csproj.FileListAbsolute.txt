@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\bin\Debug\1-2.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\bin\Debug\1-2.exe
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\bin\Debug\1-2.pdb
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\1-2.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\_1_2.Properties.Resources.resources
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\1-2.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\1-2.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\1-2.exe
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\1-2.pdb
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\1-2.exe.config
+C:\Users\m303\Desktop\114-2-c-make2\期末上機考\1-2\1-2\obj\Debug\_1_2.Form1.resources

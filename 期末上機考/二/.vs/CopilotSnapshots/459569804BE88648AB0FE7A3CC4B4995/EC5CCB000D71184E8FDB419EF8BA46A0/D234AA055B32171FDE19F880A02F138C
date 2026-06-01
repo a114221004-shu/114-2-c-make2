@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace 二
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 模擬範例：一般教師（相當於 Employee）
+            Professor Jennifer = new Professor();
+            Jennifer.Name = "珍妮佛";
+            Jennifer.Number = "E001";
+            Jennifer.Salary = 30000m; // 會被裁切為 80000（下限）
+            LblMsg.Text = $"員工姓名：{Jennifer.Name} \n實領薪水：{Jennifer.CalculateNetSalary():C0}";
+            LblMsg.Text += "\n======================\n";
+
+            // 模擬範例：系主任（相當於 Manager）
+            Dept_Head Alice = new Dept_Head();
+            Alice.Name = "艾莉絲";
+            Alice.Number = "M001";
+            Alice.Salary = 40000m; // 會被裁切為 80000（下限）
+            Alice.Bonus = 20000m;
+            // 顯示系主任的總薪（可視為 Manager.GetTotal())
+            LblMsg.Text += $"系主任姓名：{Alice.Name} \n總薪（含加給）：{Alice.TotalGrossSalary():C0}\n實領：{Alice.CalculateNetTotalSalary():C0}";
+        }
+    }
+}

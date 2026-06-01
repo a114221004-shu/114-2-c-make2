@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace 二
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 建立三位員工（此範例使用 Dept_Head 類別以包含加給欄位），但不計算實領薪資
+            LblMsg.Text = string.Empty;
+
+            Dept_Head jennifer = new Dept_Head();
+            jennifer.Name = "珍妮佛";
+            jennifer.Number = "111";
+            jennifer.Salary = 75000m; // 低於下限會被裁切為 80000
+            jennifer.Bonus = 35000m;
+            LblMsg.Text += jennifer.GetTotal();
+            LblMsg.Text += "\n======================\n";
+
+            Dept_Head guagua = new Dept_Head();
+            guagua.Name = "瓜瓜";
+            guagua.Number = "112";
+            guagua.Salary = 90000m;
+            guagua.Bonus = 55000m; // 高於上限會被裁切為 50000
+            LblMsg.Text += guagua.GetTotal();
+            LblMsg.Text += "\n======================\n";
+
+            Dept_Head mieMie = new Dept_Head();
+            mieMie.Name = "咩咩";
+            mieMie.Number = "115";
+            mieMie.Salary = 85000m;
+            mieMie.Bonus = 40000m;
+            LblMsg.Text += mieMie.GetTotal();
+        }
+    }
+}

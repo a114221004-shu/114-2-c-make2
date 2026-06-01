@@ -1,0 +1,59 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 二
+{
+    internal class Dept_Head : Professor
+    {
+        private decimal bonus;
+
+        public Dept_Head()
+        {
+        }
+
+        public Dept_Head(string number, string name, decimal salary, decimal bonus)
+            : base()
+        {
+            Number = number;
+            Name = name;
+            Salary = salary;
+            Bonus = bonus;
+        }
+
+        /// <summary>
+        /// 系主任加給。範圍 20,000 ~ 50,000
+        /// </summary>
+        public decimal Bonus
+        {
+            get 
+            {
+                return bonus; 
+            }
+            set
+            {
+                if (value < 20000m || value > 50000m)
+                    throw new ArgumentOutOfRangeException(nameof(Bonus), "加給必須介於 20,000 與 50,000 之間。");
+                bonus = value;
+            }
+        }
+
+        /// <summary>
+        /// 計算總薪（基本薪資 + 加給）
+        /// </summary>
+        public decimal TotalGrossSalary()
+        {
+            return Salary + Bonus;
+        }
+
+        /// <summary>
+        /// 計算總薪扣除 6% 稅金後之實領金額
+        /// </summary>
+        public decimal CalculateNetTotalSalary()
+        {
+            return TotalGrossSalary() * 0.94m;
+        }
+    }
+}

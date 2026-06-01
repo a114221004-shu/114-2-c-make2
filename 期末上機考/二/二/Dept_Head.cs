@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 二
+{
+    internal class Dept_Head : Professor
+    {
+        private decimal bonus;
+
+        public Dept_Head()
+        {
+        }
+
+        public Dept_Head(string number, string name, decimal salary, decimal bonus)
+            : base()
+        {
+            Number = number;
+            Name = name;
+            Salary = salary;
+            Bonus = bonus;
+        }
+
+        /// <summary>
+        /// 系主任加給。範圍 20,000 ~ 50,000
+        /// </summary>
+        public decimal Bonus
+        {
+            get 
+            {
+                return bonus; 
+            }
+            set
+            {
+                // 若低於 20000 則設為 20000；若高於 50000 則設為 50000；否則使用輸入值。
+                if (value < 20000m)
+                {
+                    bonus = 20000m;
+                }
+                else if (value > 50000m)
+                {
+                    bonus = 50000m;
+                }
+                else
+                {
+                    bonus = value;
+                }
+            }
+        }
+
+        /// <summary>
+        /// 計算總薪（基本薪資 + 加給）
+        /// </summary>
+        public decimal TotalGrossSalary()
+        {
+            return Salary + Bonus;
+        }
+
+        /// <summary>
+        /// 計算總薪扣除 6% 稅金後之實領金額
+        /// </summary>
+        public decimal CalculateNetTotalSalary()
+        {
+            return TotalGrossSalary() * 0.94m;  //扣6%稅金 = * 0.94
+        }
+
+        /// <summary>
+        /// 取得加總字串（供 UI 顯示用），不包含稅後計算。
+        /// </summary>
+        /// <returns>字串，包含姓名、基本薪資、加給與總薪</returns>
+        public string GetTotal()
+        {
+            return $"教師編號：{Number} \n教師姓名：{Name} \n基本薪資：{Salary:C0} \n加給：{Bonus:C0} \n總薪：{TotalGrossSalary():C0}";
+        }
+    }
+}

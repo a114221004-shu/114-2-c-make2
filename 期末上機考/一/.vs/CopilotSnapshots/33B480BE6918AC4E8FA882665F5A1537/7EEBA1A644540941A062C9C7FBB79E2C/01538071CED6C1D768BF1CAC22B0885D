@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace 一
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // 計算單一學生最終成績的 void method，接受三個參數 (學測、書審、口試)
+        // 學測滿分75，占比10%；書審滿分100，占比45%；口試滿分100，占比45%
+        // 最後滿分為 97.5 分 (75*0.1 + 100*0.45 + 100*0.45 = 7.5 + 45 + 45 = 97.5)
+        private void ComputeFinalScore(double exam75, double review100, double interview100, out double finalScore)
+        {
+            // 將各項依其比例換算
+            double examPortion = (exam75 / 75.0) * 7.5; // 75 分換算到 7.5
+            double reviewPortion = (review100 / 100.0) * 45.0;
+            double interviewPortion = (interview100 / 100.0) * 45.0;
+            finalScore = examPortion + reviewPortion + interviewPortion;
+        }
+
+        private void buttonCompute_Click(object sender, EventArgs e)
+        {
+            var rnd = new Random(0);
+            var list = new List<Tuple<int, double>>(); // (id, finalScore)
+
+            for (int i = 1; i <= 100; i++)
+            {
+                // 隨機產生三項分數，學測 0..75，書審 0..100，口試 0..100
+                double exam = rnd.Next(0, 76);
+                double review = rnd.Next(0, 101);
+                double interview = rnd.Next(0, 101);
+                double finalScore;
+                ComputeFinalScore(exam, review, interview, out finalScore);
+                list.Add(Tuple.Create(i, finalScore));
+            }
+
+            // 依分數排序 (由高到低)
+            var sorted = list.OrderByDescending(t => t.Item2).ToList();
+
+            listBoxResults.Items.Clear();
+            listBoxResults.Items.Add("排名\t編號\t最終成績");
+            int rank = 1;
+            foreach (var item in sorted)
+            {
+                listBoxResults.Items.Add(string.Format("{0}\t{1}\t{2:F2}", rank, item.Item1, item.Item2));
+                rank++;
+            }
+        }
+    }
+}

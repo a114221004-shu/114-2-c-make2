@@ -1,0 +1,113 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace 一
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // 計算單一學生最終成績的 void method，接受三個參數 (學測、書審、口試)
+        // 並以 out 參數回傳最終成績與是否因超過滿分而被 cap。
+        // 學測滿分75，占比10%；書審滿分100，占比45%；口試滿分100，占比45%
+        // 最後滿分為 97.5 分
+        private void ComputeFinalScore(double exam75, double review100, double interview100, out double finalScore, out bool capped)
+        {
+            // 將各項依其比例換算
+            double examPortion = (exam75 / 75.0) * 7.5; // 75 分換算到 7.5
+            double reviewPortion = (review100 / 100.0) * 45.0;
+            double interviewPortion = (interview100 / 100.0) * 45.0;
+            finalScore = examPortion + reviewPortion + interviewPortion;
+            // 若超過滿分 97.5，則 cap 並標記
+            if (finalScore > 97.5)
+            {
+                finalScore = 97.5;
+                capped = true;
+            }
+            else
+            {
+                capped = false;
+            }
+        }
+
+        private void buttonCompute_Click(object sender, EventArgs e)
+        {
+            var rnd = new Random(0);
+            var list = new List<Tuple<int, double>>(); // (id, finalScore)
+
+            for (int i = 1; i <= 100; i++)
+            {
+                // 為了示範被 cap 的情況，讓每 10 號學生故意有超過滿分的輸入
+                double exam, review, interview;
+                if (i % 10 == 0)
+                {
+                    // 故意超過滿分值
+                    exam = 80.0; // >75
+                    review = 110.0; // >100
+                    interview = 105.0; // >100
+                }
+                else
+                {
+                    // 正常範圍內的隨機分數
+                    exam = rnd.Next(0, 76);
+                    review = rnd.Next(0, 101);
+                    interview = rnd.Next(0, 101);
+                }
+
+                double finalScore;
+                bool capped;
+                ComputeFinalScore(exam, review, interview, out finalScore, out capped);
+                // 存放所有顯示資訊：編號、final、三項分數、是否 capped
+                list.Add(Tuple.Create(i, finalScore));
+                // 把額外資訊存到 Tag 以便排序後再次取得（簡單做法）
+                // Since Tuple currently only holds id and final, we will create a parallel dictionary
+            }
+
+            // 為能顯示三項分數與 capped 狀態，我們需要重新產生資料結構並重新計算一次以保存細節
+            var detailedList = new List<Tuple<int, double, double, double, double, bool>>(); // id, final, exam, review, interview, capped
+            rnd = new Random(0);
+            for (int i = 1; i <= 100; i++)
+            {
+                double exam, review, interview;
+                if (i % 10 == 0)
+                {
+                    exam = 80.0;
+                    review = 110.0;
+                    interview = 105.0;
+                }
+                else
+                {
+                    exam = rnd.Next(0, 76);
+                    review = rnd.Next(0, 101);
+                    interview = rnd.Next(0, 101);
+                }
+                double finalScore;
+                bool capped;
+                ComputeFinalScore(exam, review, interview, out finalScore, out capped);
+                detailedList.Add(Tuple.Create(i, finalScore, exam, review, interview, capped));
+            }
+
+            var sorted = detailedList.OrderByDescending(t => t.Item2).ToList();
+
+            listBoxResults.Items.Clear();
+            listBoxResults.Items.Add("排名\t編號\t學測\t書審\t口試\t最終成績\t是否被Cap");
+            int rank = 1;
+            foreach (var item in sorted)
+            {
+                string capMark = item.Item6 ? "是" : "否";
+                listBoxResults.Items.Add(string.Format("{0}\t{1}\t{2:F1}\t{3:F1}\t{4:F1}\t{5:F2}\t{6}", rank, item.Item1, item.Item3, item.Item4, item.Item5, item.Item2, capMark));
+                rank++;
+            }
+        }
+    }
+}
